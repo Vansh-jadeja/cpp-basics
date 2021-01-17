@@ -1,4 +1,5 @@
 
+
 #include <iostream>
 #include <cstdlib>
 using namespace std;
@@ -15,14 +16,13 @@ int main()
     int a1 = 5;
     int b1 = 6;
     int sum1 = add(a1, b1);
-    cout << sum1;
-    cout << ". ";
+    cout << sum1 << ". ";
     
     
     int sum2 = add(7, 6);
-    cout << sum2;
-    cout << ". ";
+    cout << sum2 << ". ";
 
     cout << "Bye" ;
     return 0;
 }
+
