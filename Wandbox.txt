@@ -1,0 +1,40 @@
+#include <iostream>
+//this program is going to print 
+//the element and its atomic number
+//Gold Au 79
+//Silver Ag 47
+//Neon Ne 10
+void printElement(int atomicNumber)
+{
+    if(atomicNumber == 79)
+    {
+        std::cout << "Gold Au 79" << std::endl;
+    }
+    else if(atomicNumber == 47)
+    {
+        std::cout << "Silver Ag 47" << std::endl;
+    }
+    else if(atomicNumber == 10)
+    {
+        std::cout << "Neon Ne 10" << std::endl;
+    }
+    else
+    {
+        std::cerr << "I Don't Know Atomic Number " << atomicNumber << std::endl;
+    }
+}
+
+int main()
+{
+    printElement(108);
+    printElement(79);
+    printElement(47);
+    printElement(10);
+    printElement(1);
+  /*
+    std::cout << "Please Enter A Number- ";
+    int a;
+    std::cin >> a;
+    std::cout << "You Have Entered- " << a;
+    printElement(a);*/
+}
